@@ -2,4 +2,43 @@ body {
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textArea {
+    margin: 0 auto;
+    background-color: rgba(105, 105, 105, 0.5); /* dimgray with 50% opacity */
+    width: 40%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    opacity: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul, li {
+    color:white;
+}
+
+a {
+    color: bisque;
+}
+
+
+button {
+    border-radius: 10px;
+    padding: 10%;
+    color: white;    
+    background-color: rgba(105, 105, 105, 1);
 }
