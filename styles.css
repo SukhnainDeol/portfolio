@@ -12,18 +12,19 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 90%;
 }
 
 #textArea {
     margin: 0 auto;
     background-color: rgba(105, 105, 105, 0.5); /* dimgray with 50% opacity */
     width: 40%;
-    height: 45%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 h1, p {
